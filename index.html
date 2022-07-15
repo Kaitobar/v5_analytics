@@ -1,183 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V5 Analytics</title>
 
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 
-		<title>V5 Analytics</title>
+</head>
+<body>
 
-		<link rel="stylesheet" href="style.css">
-	</head>
-
-	<body>
-
-        <header class="header">
-            <nav class="header__nav">
-
-            </nav>
-
-            <section class="header__info">
-
-                <h1 class="info__title">V5 Analytics</h1>
-                <p class="info__content"> Eligendi libero id in fugiat assumenda voluptatum consequuntur! </p>
-
-            </section>
-
-        </header>
-
-        <main class="main">
-
-            <section class="main__info">
-
-                <article class="info__container">
-                    <img src="img/icons8-archivo (1).svg" alt="" class="content__log">
-                    <p class="content__description">Lorem ipsum, dolor sit amet consectetur 
-                        adipisicing elit. Eum, magnam omnis </p>
-                </article>
-
-                <article class="info__container">
-                    <img src="img/icons8-archivo (1).svg" alt="" class="content__log">
-                    <p class="content__description">Lorem ipsum, dolor sit amet consectetur 
-                        adipisicing elit. Eum, magnam omnis </p>
-                </article>
-
-                <article class="info__container">
-                    <img src="img/icons8-archivo (1).svg" alt="" class="content__log">
-                    <p class="content__description">Lorem ipsum, dolor sit amet consectetur 
-                        adipisicing elit. Eum, magnam omnis </p>
-                </article>
-
-            </section>
-
-            <section class="main__video">
-
-                <div class="video__info"></div>
-                <video src="" class="video___yt"></video>
-
-            </section>
-
-            <section class="main__testimony">
-
-                <div class="products__container">
-                    <div class="container__item">
-                        <div class="item__img">
-                            <img src="img/categoria-2.jpg" alt="" class="item__img">
-                        </div>
-                        
-                        <div class="item__info">
-                            <p class="info__title">Titulo producto</p>
-                            <p class="info__price">$XX.000</p>
-                            <p class="info__discount">$XX.000</p>
-                        </div>
-                        
-                    </div>
-                    <div class="container__item">
-                        <div class="item__img">
-                            <img src="img/categoria-2.jpg" alt="" class="item__img">
-                        </div>
-                        <div class="item__info">
-                            <p class="info__title">Titulo producto</p>
-                            <p class="info__price">$XX.000</p>
-                            <p class="info__discount">$XX.000</p>
-                        </div>
-                    </div>
-                    <div class="container__item">
-                        <div class="item__img">
-                            <img src="img/categoria-2.jpg" alt="" class="item__img">
-                        </div>
-                        <div class="item__info">
-                            <p class="info__title">Titulo producto</p>
-                            <p class="info__price">$XX.000</p>
-                            <p class="info__discount">$XX.000</p>
-                        </div>
-
-                    </div>
-                    
-                </div>
-
-
-            </section>
-
-            <section class="main__form"></section>
-
-        </main>
-        
-        <footer class="footer">
-            <footer class="footer__top">
-                <div class="footer__icon">
-                    <img src="img/logo_persa.svg" alt="" class="icon">
-                    <p class="icon__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Minus maxime assumenda ducimus voluptatibus et eveniet ratione, nihil harum? 
-                        Repudiandae natus pariatur molestias culpa voluptas ratione debitis ullam 
-                        praesentium quos saepe!</p>
-                </div>
-                <div class="footer__category">
-                    <h3 class="footer__title">CATEGORIAS</h3>
-                    <ul>
-                        <li class="footer__info">Construccion</li>
-                        <li class="footer__info">Ferreteria</li>
-                        <li class="footer__info">Herramientas</li>
-                    </ul>
-                </div>
-                <div class="footer__category">
-                    <h3 class="footer__title">INFORMACION</h3>
-                    <ul>
-                        <li class="footer__info">Empresas</li>
-                        <li class="footer__info">Valores y Marcas</li>
-                        <li class="footer__info">¿Como comprar?</li>
-                    </ul>
-                </div>
-                <div class="footer__category">
-                    <h3 class="footer__title">MEDIOS DE PAGO</h3>
-                    <ul>
-                        <img src="img/Captura web_30-3-2022_231252_xd.adobe.com.jpeg" alt="" class="img__pay">
-                    </ul>
-                </div>
-                <div class="footer__category">
-                    <h3 class="footer__title">SIGUENOS</h3>
-                    
-                    <ul>
-                        <li><img src="img/002-facebook-logo.svg" alt=""></li>
-                        <li class="footer__title">CONTACTANOS</li>
-                        <li class="footer__info">+56 9 39510685</li>
-                        <li class="footer__info">Lun a Vie</li>
-                    </ul>
-                </div>
-            </footer>
-            <footer class="footer__bottom"></footer>
-            
-            <div class="footer__law">
-                <p class="law__text">
-                    Persa Ferreteria MTS 2021. Todos los 
-                    derechos reservados. Desarrollado por ADWISE SPA
-                </p>
+    
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="images/logo-magtimus.png" alt="">
             </div>
-        </footer>
+            <div class="container__nav">
+                <nav class="nav__info">
+                    <ul>
+                        <li><a href="#" class="select">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">HOW IT WORK</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
 
-		<script type="text/javascript" src="js/main.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-        <script>
-            VANTA.BIRDS({
-              el: ".header",
-              mouseControls: true,
-              touchControls: true,
-              gyroControls: false,
-              minHeight: 200.00,
-              minWidth: 200.00,
-              scale: 1.00,
-              scaleMobile: 1.00,
-              backgroundColor: 0xffffff,
-              color1: 0x3cff,
-              color2: 0x1eff00,
-              birdSize: 2.10,
-              separation: 67.00,
-              quantity: 3.00
-            })
-        </script>
-	</body>
+                
+                <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <div class="container__all" id="container_all">
+
+        <div class="cover">
+
+            <div class="container__cover">
+
+                <div class="container__info">
+                    <h1>BUILD YOUR</h1>
+                    <h2>BUSINESS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus molestias cumque at, impedit eum corrupti libero ipsam placeat, nulla, maiores totam qui ea distinctio. Velit, distinctio. Iste iusto deserunt esse?</p>
+                    <input type="button" value="Get Started">
+                </div>
+                <div class="container__vector">
+                    <img src="images/undraw_Code_thinking_re_gka2.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    
+        <div class="body__Page">
+            <div class="container__article">
+                <div class="box__article"></div>
+                <div class="box__article"></div>
+                <div class="box__article"></div>
+                <div class="box__article"></div>
+                <div class="box__article"></div>
+                <div class="box__article"></div>
+                <div class="box__article"></div>
+                <div class="box__article"></div>
+            </div>
+            <div class="container-testimonials">
+                <div class="box__testimonials"></div>
+                <div class="box__testimonials"></div>
+                <div class="box__testimonials"></div>
+            </div>
+        </div>
+        <Footer>
+            <div class="container__footer">
+
+                <div class="box__footer">
+                    <div class="logo">
+                        <img src="Images/logo-magtimus.png" alt="">
+                    </div>
+                    <div class="terms">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum reiciendis et quasi aut facere vitae vero. Inventore, minus ab voluptate modi repellat, pariatur tempora quisquam, debitis facilis explicabo voluptatem. A.
+                    </div>
+                </div>
+
+                <div class="box__footer">
+                    <h2>Soluciones</h2>
+                    <a href="#">App Desarrollo</a>
+                    <a href="#">App Marketing</a>
+                    <a href="#">IOS Desarrollo</a>
+                    <a href="#">Android Desarrollo</a>
+                </div>
+
+                <div class="box__footer">
+                    <h2>Compañia</h2>
+                    <a href="#">Acercda de</a>
+                    <a href="#">Trabajos</a>
+                    <a href="#">Procesos</a>
+                    <a href="#">Servicios</a>              
+                </div>
+
+                <div class="box__footer">
+                    <h2>Redes Sociales</h2>
+                    <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                    <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+                </div>
+            </div>
+
+            <div class="box__copyright">
+                <hr>
+                <p>Todos los derechos reservados © 2021 <b>MagtimusPro</b></p>
+            </div>
+        </Footer>
+
+</div>
+
+
+<script src="js/script.js"></script>
+</body>
 </html>
-
-
