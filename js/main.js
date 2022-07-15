@@ -1,3 +1,5 @@
+//PARTE DEL SCROLL DEL HEADER
+
 window.onscroll = function(){
 
     scroll = document.documentElement.scrollTop;
@@ -11,6 +13,8 @@ window.onscroll = function(){
     }
 
 }
+
+//HEADER MENU RESPONSIVE
 
 document.getElementById("btn_menu").addEventListener("click", mostrar_menu);
 
@@ -35,3 +39,33 @@ window.addEventListener("resize", function(){
     }
 
 })
+
+//PARTE DE EL CARRUSEL 
+
+window.addEventListener('load', function(){
+	new Glider(document.querySelector('.carousel__lista'), {
+		slidesToShow: 1,
+		slidesToScroll: 1,
+        draggable: true,
+		dots: '.carousel__indicadores',
+		arrows: {
+			prev: '.carousel__anterior',
+			next: '.carousel__siguiente'
+		},
+		responsive: [
+			{
+			  breakpoint: 450,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2
+			  }
+			},{
+			  breakpoint: 800,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1
+			  }
+			}
+		]
+	});
+});
